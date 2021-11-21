@@ -4,8 +4,12 @@ export default function Search() {
   return (
     <div>
       <div className="search-engine">
-        <input type="text" placeholder="Type a city"></input>
-        <input type="submit"></input>
+        <input
+          type="text"
+          placeholder="Type a city.."
+          className="search-bar"
+        ></input>
+        <input type="submit" className="submit-btn" value="Search"></input>
       </div>
     </div>
   );
